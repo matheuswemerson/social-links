@@ -35,14 +35,111 @@
 }
 
 body{
+    display: flex;
     font-family: 'Inter', sans-serif;
     background: var(--grey-900);
     font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
 }
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    max-width: 420px; 
+    height: auto;
+    background: var(--grey-800);
+    border-radius: 15px;
+    padding: 20px;
+    gap: 20px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    height: 300px;
+}
+.card_avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12%;
+}
+.card_avatar img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.card_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card_info_name h1 {
+    font-size: 1.6rem;
+    color: var(--white);
+    margin-bottom: 5%;
+}
+
+.card_info_local h2 {
+    font-size: 0.9rem;
+    color: var(--green);
+    margin-bottom: 17%;
+}
+
+.card_info_desc p {
+    font-size: 0.9rem;
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 5px;
+}
+.card_links ul {
+    list-style: none; 
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card_links ul li a {
+    display: block;
+    text-align: center;
+    padding: 15px 100px;
+    background-color: var(--grey-700);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-weight: 700;
+}
+
+.card_links ul li a:hover {
+    background-color: var(--green);
+}
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--white);
+    padding: 10px;
+}
+
 .attribution{
     font-size: 11px;
     text-align: center;
 }
 .attribution a{
     color: var(--blue)
+}
+@media (min-width: 375px) {
+    main {
+        width: 90%;
+    }
+    
 }
