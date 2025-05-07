@@ -108,7 +108,7 @@ I hope to enhance my frontend skills by taking on more challenges like this one.
 ## Author
 
 - Frontend Mentor - [@matheuswemerson](https://www.frontendmentor.io/profile/matheuswemerson)
-- Linkedin - [@yourusername](https://www.linkedin.com/in/matheuswemerson/)
+- Linkedin - [Matheus Wemerson](https://www.linkedin.com/in/matheuswemerson/)
 
 ## Acknowledgments
 
