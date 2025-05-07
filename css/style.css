@@ -49,9 +49,8 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%; 
+    width: 90%; 
     max-width: 420px; 
-    height: auto;
     background: var(--grey-800);
     border-radius: 15px;
     padding: 20px;
@@ -115,7 +114,7 @@ header{
     background-color: var(--grey-700);
     color: var(--white);
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 7px;
     transition: background-color 0.3s ease;
     font-weight: 700;
 }
@@ -138,9 +137,9 @@ footer {
 .attribution a{
     color: var(--blue)
 }
-@media (min-width: 375px) {
+@media (min-width: 768px) {
     main {
-        width: 90%;
+        width: 100%;
     }
     
 }
